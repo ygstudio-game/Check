@@ -55,7 +55,7 @@
     left: 0;
     width: 100%;
     height: 5vw;
-    background:  url('/photos/wave.png');
+    background:  url('photos/wave.png');
     background-size: 52vw 5vw;
     }
     footer .waves #wave1{
