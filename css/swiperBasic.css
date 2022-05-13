@@ -71,7 +71,7 @@ padding: 2vw 1.5vw;
   padding: 7vw 6vw !important;
 }
 .card.onFocus_Main p.click_on_para{
-  transform: scale(1.25 ,1.05) !important;
+  transform: scale(1.05) !important;
 }
 .swiper-wrapper{
   margin-top: -6vh;

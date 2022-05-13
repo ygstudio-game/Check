@@ -78,7 +78,7 @@ animation: Blurhue_roatate 20s linear infinite; */
                transform: scale(1.05);
                border: 0.26vw solid darkred;
                box-shadow: 0 0 0vw 0.2vw rgb(255, 255, 255), 0 0 2vw 1vw rgb(223, 223, 28);
-               border-radius: 0.05vw;
+               border-radius: 0.01vw;
           }
 
           .card.onFocus_Main:hover {
