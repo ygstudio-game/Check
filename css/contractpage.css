@@ -299,4 +299,11 @@ canvas {
 	.container .contactForm .formBox .inputBox.w50 {
 		width: 100%;
 	}
+	.container .contactForm .formBox .inputBox input:focus ~ span,
+	.container .contactForm .formBox .inputBox input:valid ~ span,
+	.container .contactForm .formBox .inputBox textarea:focus ~ span,
+	.container .contactForm .formBox .inputBox textarea:valid ~ span {
+		 text-transform: uppercase;
+		 animation: FocusONinputres 1800ms 1 cubic-bezier(0.785, 0.135, 0.15, 0.86) forwards  ;
+	}
 } 
