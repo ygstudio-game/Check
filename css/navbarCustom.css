@@ -1,0 +1,26 @@
+ a:hover{
+text-decoration: underline;
+color: #0f0 !important;
+animation: spaceboots 2 280ms ease-in-out forwards ; 
+} 
+.navbar{
+position: fixed;
+width: 100%;
+padding: 0.67vw;
+z-index: 55;
+} 
+.navbar li.nav-item {
+font-size: 1.6vh !important;
+margin: 0 1vw;
+font-family: 'neontubes';
+letter-spacing: 0.1vw; 
+}
+.navbar input.form-control:active{
+width: 50vw;
+}
+li.nav-item:nth-child(even) {text-shadow: 0.1vh 0.2vh 0.5vw #0003ee, 0.1vh 0.2vh 0.5vw #0003ee;}
+li.nav-item:nth-child(odd) {text-shadow: 0.1vh 0.2vh 0.5vw #78be14, 0.1vh 0.2vh 0.5vw #78be14;}
+@media only screen and (max-width: 768px) {
+    li.nav-item:nth-child(even) {text-shadow: 0.1vh 0.2vh 3vw #0003ee, 0.1vh 0.2vh 3vw #0003ee;}
+    li.nav-item:nth-child(odd) {text-shadow: 0.1vh 0.2vh 3vw #78be14, 0.1vh 0.2vh 3vw #78be14;}
+}
