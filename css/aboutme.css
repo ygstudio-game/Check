@@ -109,13 +109,13 @@ inset 0.2vw 0.2vw 0.3vw 0 rgba(116, 125, 136, .3);
 }
 @media only screen and (max-width: 768px) {
 .aboutMore{
-   width: 22.56vw; 
+   width: fit-content; 
 }
 .about span {
-width: 16vw;
+width: fit-content;
 height: 16vw;
 }
 .about h2 {
 font-size: 6vw;
 }
-}
+} 
