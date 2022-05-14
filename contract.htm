@@ -191,7 +191,9 @@
  </body>
  <script  src="vanilla-tilt.js"></script>
  <script>
-	 VanillaTilt.init(document.querySelector(".contactInfo"), {
+   let mediaqurrt = window.screen.innerWidth
+   if(mediaqurrt >= 768){ 
+ 	 VanillaTilt.init(document.querySelector(".contactInfo"), {
   max:  30,
   speed: 250,
   glare: true,
@@ -205,6 +207,8 @@
   "max-glare": 0.5,
   transition: true,
   reset: true });
+}
+
      function randomIntFromRange(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
